@@ -1,66 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Contact - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-<div id="container">
-    <div id="navbar">
-        <img src="assets/logo.png" alt="foto van logo">
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="eindreflectie.html">Eindreflectie</a></li>
-                <li><a href="interests.html">Interests</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
+<header>
+    <nav>
+        <ul>
+            <li id="homepage"><a href="home.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="werkplekleren.html">WPL</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
-    <div id="div13-container">
-        <section id="section13">
-            <div id="div13">
-                <p>Contact</p>
-            </div>
-            <div id="div14">
-                <div id="div14-container">
-                    <div id="div14-1">
-                        <a href="mailto:email@example.com?subject=Subject&body=Body" target="_blank">
-                            <img src="assets/email-icon.png" alt="E-mail">
-                            <p>aaronraets@icloud.com</p>
-                        </a>
-                    </div>
-                    <div id="div14-2">
-                        <a href="https://www.facebook.com/aaron.raets" target="_blank">
-                            <img src="assets/facebook-icon.png" alt="Facebook">
-                            <p>Facebook</p>
-                        </a>
-                    </div>
-                    <div id="div14-3">
-                        <a href="https://www.instagram.com/aaron.raets/" target="_blank">
-                            <img src="assets/instagram-icon.png" alt="Instagram">
-                            <p>Instagram</p>
-                        </a>
-                    </div>
-                    <div id="div14-4">
-                        <a href="https://www.linkedin.com/in/aaron-raets-973923259/" target="_blank">
-                            <img src="assets/linkedin-icon.png" alt="LinkedIn">
-                            <p>LinkedIn</p>
-                        </a>
-                    </div>
+
+    <!-- tekst -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="text-contact">
+                    <h2>+32 478 67 76 67</h2>
+                    <h3>info@actlawagency.com</h3>
+                    <br>
+                    <br>
+                    <h4>Instagram</h4>
+                    <h4>Facebook</h4>
+                    <h4>LinkedIn</h4>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 id="stad-contact">Hasselt</h1>
+                    <h5>Gouverneurslaan 6</h5>
+                    <h2>België</h2>
                 </div>
             </div>
-        </section>
+            <div class="col-md-4">
+                <div id="titel-formulier">
+                    <h1>Heb je hulp nodig?<br>
+                        Stuur ons een bericht!</h1>
+                </div>
+                <form class="formulier">
+                    <div class="form">
+                        <label for="naam"></label>
+                        <input type="text" class="form-control" id="naam" placeholder="Naam*">
+                    </div>
+                    <div class="form">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com*">
+                    </div>
+                    <div class="form-group">
+                        <label for="text"></label>
+                        <textarea class="form-control" id="text" placeholder="Uw bericht*" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="button">Send</button>
+                </form>
+            </div>
+        </div>
     </div>
 </main>
-</body>
+
+<footer>
+    <p>&copy; Aaron Raets - 2023</p>
+</footer>
+</>
+
 </html>

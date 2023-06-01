@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="assets/logo.png" class="logo" alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="projects.html">Projecten</a></li>
+                <li><a href="werkplekleren.html">WPL</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Student - Industriële Informatica</p>
+            <h1>Hallo, ik ben <span>Aaron</span><br>Raets van Zoutleeuw</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/myself.jpg" alt="foto van mezelf">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Over mij</h1>
+                <p>Hallo, mijn naam is Aaron Raets. Ik woon in Zoutleeuw. Ik ben 20 jaar oud. Tot het heden ben ik nog
+                    een student aan de PXL in Hasselt. Ik volg de richting Digitale Vormgeving (DVO) of Industriële
+                    Informatica.
+                    Ik werk het liefst in groepsverband want hoe meer zielen, hoe meer vreugde. Dit is ook vooral
+                    gekomen
+                    door mijn hobby. Ik ben zeer sociaal in de omgang. Soms ben ik wat meer afwachtend maar daar komt al
+                    snel
+                    verandering
+                    in.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('opleiding')">Opleiding</p>
+                    <p class="tab-links" onclick="opentab('interesses')">Interesses</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>AdobeXD - Designing Web/App interfaces</li>
+                        <li><span>Web Essentials</span><br>Webstorm - HTML/CSS/JavaScript</li>
+                        <li><span>Graphic Skills</span><br>Photoshop & Illustrator - Graphic Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="opleiding">
+                    <ul>
+                        <li><span>2022 - heden </span><br>Industriële Informatica- PXL Hasselt, Hasselt</li>
+                        <li><span>2019 - 2022</span><br>Office Logistical Assistant & Business Support - Hasp-O
+                            Zepperen, Zepperen
+                        </li>
+                        <li><span>2018 - 2019</span><br> IT & Netwerken - HAST, Hasselt</li>
+                        <li><span>2015 - 2018</span><br> Sociaal Technische Wetenschappen - Atheneum, Sint-Truiden</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="interesses">
+                    <ul>
+                        <li><span>Hobby's</span><br>Voetbal, Fitness</li>
+                        <li><span>Professionele interesses</span><br>Grafisch ontwerp, Web development</li>
+                        <li><span>Persoonlijke interesses</span><br>Muziek, reizen, sporten, met vrienden weggaan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="werkplekleren">
+    <div class="container">
+        <h1 class="sub-title">Werkplekleren</h1>
+        <div class="wpl-list">
+            <div>
+                <h2>WPL 1</h2>
+                <p>Eindreflectie</p>
+                <a href="#"> learn more</a>
+            </div>
+            <div>
+                <h2>WPL 2</h2>
+                <p>Project - Case Advocatenkantoor </p>
+                <a href="#"> learn more</a>
+            </div>
+            <div>
+                <h2>WPL 2</h2>
+                <p>Eindreflectie</p>
+                <a href="#"> learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; Aaron Raets - 2023</p>
+</footer>
+
+</body>
+</html>
