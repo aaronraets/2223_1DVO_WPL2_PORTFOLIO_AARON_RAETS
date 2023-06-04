@@ -12,3 +12,12 @@ function opentab(tabname) {
     document.getElementById(tabname).classList.add("active-tab");
 
 }
+
+let menu = document.getElementById("menu");
+
+function openmenu(){
+    menu.style.right="0";
+}
+function closemenu(){
+    menu.style.right="-200px";
+}
