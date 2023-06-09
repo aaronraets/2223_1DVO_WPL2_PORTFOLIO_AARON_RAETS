@@ -235,8 +235,11 @@ nav ul li a:hover::after {
     transition: height 0.5s;
 }
 .layer h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
+}
+.layer p{
+    font-size: 11px;
 }
 .layer a{
     margin-top: 20px;
